@@ -115,7 +115,7 @@ __Estruturas utilizadas__:
 ### ["supportLib.h"]():
 
 Biblioteca de suporte ao ["pbPlots.h"]().
-_Fonte_: [InductiveComputerScience/pbPlots](https://github.com/InductiveComputerScience/pbPlots/tree/master/C).  
+_Fonte_:   [InductiveComputerScience/pbPlots](https://github.com/InductiveComputerScience/pbPlots/tree/master/C).  
 
 __Funções utilizadas__:
 
