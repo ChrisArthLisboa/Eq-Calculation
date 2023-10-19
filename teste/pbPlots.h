@@ -4,8 +4,6 @@
 #include <string.h>
 #include <wchar.h>
 #include <stdint.h>
-#include <stdlib.h>
-#include <stdio.h>
 
 #define strparam(str) (str), wcslen(str)
 
@@ -854,5 +852,3 @@ void GetDeflateLengthCode(double length, NumberReference *code, NumberReference 
 void GetDeflateDistanceCode(double distance, NumberReference *code, NumberReference *distanceAdditionReference, NumberReference *distanceAdditionLengthReference, double *bitReverseLookupTable, size_t bitReverseLookupTableLength);
 void AppendBitsToBytesLeft(ByteArray *bytes, NumberReference *nextbit, double data, double length);
 void AppendBitsToBytesRight(ByteArray *bytes, NumberReference *nextbit, double data, double length);
-
-void WriteToFile(ByteArray *data, char *filename);
