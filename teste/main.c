@@ -108,8 +108,8 @@ int main() {
 
             printf("\n%.1f*x^2+%.1f*x+%.1f\n", a, b, c);
 
-            printf("\nDelta: %.2f\n", get2XD(a, b, c, 0).delta);
-            printf("X1 | X2: %.2f | %.2f\n", get2XD(a, b, c, 0).x1, get2XD(a, b, c, 0).x2);
+            printf("\nDelta: %.2f\n", get2XD(a, b, c).delta);
+            printf("X1 | X2: %.2f | %.2f\n", get2XD(a, b, c).x1, get2XD(a, b, c).x2);
             printf("Vertice: (%.2f, %.2f)\n", verticeX, get2Y(a, b, c, verticeX));
 
             break;
