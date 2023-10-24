@@ -87,7 +87,7 @@ struct Bhaskara {
     float delta;
 };
 ```
-Essa estrutura foi criada para passar dados pela função de [get2XD()]().
+Essa estrutura foi criada para passar dados pela função de [get2XD()](#get2xd).
 
 ### Usadas:
 
