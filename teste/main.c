@@ -15,7 +15,7 @@ float get1Y(float a, float b, float x) {
     return a*x + b;
 }
 
-float get1X(float a, float b, float y){ // By Guilherme Baccin Modified by Arthur Lisboa
+float get1X(float a, float b, float y){
     float x=-b/a;
     return x-y;
 }
@@ -25,7 +25,7 @@ float get2Y(float a, float b, float c, float x) {
 }
 
 
-struct Bhaskara get2XD(float a, float b, float c){ // By Daniel Hermes Modified by Arthur Lisboa
+struct Bhaskara get2XD(float a, float b, float c){
 
     float delta = pow(b, 2) + (-4*a*c);
     float x1 = (-b + sqrt(delta)) / (2*a);
